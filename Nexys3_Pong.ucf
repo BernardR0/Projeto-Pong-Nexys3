@@ -1,0 +1,23 @@
+# =======================
+# CLOCK (100 MHz)
+# =======================
+NET "clk" LOC = "T9" | IOSTANDARD = LVCMOS33;
+
+# =======================
+# VGA OUTPUT
+# =======================
+NET "hsync" LOC = "R9"  | IOSTANDARD = LVCMOS33;
+NET "vsync" LOC = "T10" | IOSTANDARD = LVCMOS33;
+
+# VGA Red
+NET "rgb[2]" LOC = "V12" | IOSTANDARD = LVCMOS33;
+# VGA Green
+NET "rgb[1]" LOC = "U12" | IOSTANDARD = LVCMOS33;
+# VGA Blue
+NET "rgb[0]" LOC = "V11" | IOSTANDARD = LVCMOS33;
+
+# =======================
+# BOTÕES
+# =======================
+NET "btn_up"   LOC = "V4" | IOSTANDARD = LVCMOS33;
+NET "btn_down" LOC = "V3" | IOSTANDARD = LVCMOS33;
